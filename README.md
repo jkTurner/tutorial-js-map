@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mastering `.map()` in React
 
-## Getting Started
+This is a hands-on tutorial for understanding and using the `.map()` method in React. It walks through five different scenarios using simple, readable examples styled with Tailwind CSS. From one-dimensional arrays to nested object structures and conditional rendering, this project helps you get comfortable with mapping data dynamically in your React components.
 
-First, run the development server:
+## What You'll Learn
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- How to iterate over basic arrays using `.map()`
+- Mapping arrays of objects and accessing properties
+- Accessing and rendering nested objects and arrays
+- Nesting multiple `.map()` calls for deeper structures
+- Using conditional styling inside `.map()` for dynamic UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ages & Examples
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Each example lives in its own page. You can navigate to them individually:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Page | Description |
+|------|-------------|
+| `/simple` | Basic `.map()` with one-dimensional array |
+| `/array-of-objects` | Map through array of user objects |
+| `/array-of-nested-objects` | Access nested properties like addresses |
+| `/array-of-objects-and-nested-array` | Render product colors from nested arrays |
+| `/conditional-rendering` | Apply conditional styles based on properties |
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **React 18**
+- **Next.js 15**
+- **Tailwind CSS 4**
