@@ -24,6 +24,5 @@ Each example lives in its own page. You can navigate to them individually:
 
 ## Tech Stack
 
-- **React 18**
 - **Next.js 15**
 - **Tailwind CSS 4**
